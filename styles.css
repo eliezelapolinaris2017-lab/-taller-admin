@@ -40,3 +40,9 @@ input:focus,select:focus,textarea:focus{border-color:rgba(244,122,31,.75);box-sh
 @media(max-width:1050px){.grid{grid-template-columns:repeat(2,1fr)}.dashboardActivity{grid-template-columns:1fr}}
 @media(max-width:850px){.shell{grid-template-columns:1fr}.side{height:auto;position:static;border-right:0;border-bottom:1px solid var(--line)}.side:after{display:none}.nav{grid-template-columns:repeat(4,1fr);overflow:auto}.main{padding:16px}.top{top:6px}.formgrid{grid-template-columns:1fr}.heroBanner{min-height:210px}.heroCopy{padding:24px}}
 @media(max-width:560px){.grid{grid-template-columns:1fr 1fr}.heroCopy h2{font-size:32px}.heroBanner{min-height:260px;background-position:64% center}.nav{grid-template-columns:repeat(3,max-content)}}
+
+.logoMark{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;overflow:hidden;background:#0d0f13;border:1px solid rgba(255,255,255,.08);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.logoMark img{width:100%;height:100%;object-fit:contain;padding:4px}
+.logoPreview{max-width:180px;max-height:110px;object-fit:contain;display:block;margin:0 auto 10px}
+.logoPlaceholder{width:82px;height:82px;border-radius:22px;margin:0 auto 10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--brand2),var(--brand));color:#111;font:800 28px Manrope,Inter,sans-serif;box-shadow:0 12px 30px rgba(244,122,31,.2)}
+.settings .btn:disabled{opacity:.6;cursor:wait;transform:none}
