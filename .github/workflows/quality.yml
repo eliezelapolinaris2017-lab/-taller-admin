@@ -15,10 +15,17 @@ jobs:
         with:
           node-version: 22
       - name: Check JavaScript syntax
-        run: node --check app.js
+        run: |
+          node --check app.js
+          node --check cliente/app.js
       - name: Verify required PWA files
         run: |
           test -f index.html
           test -f styles.css
           test -f manifest.webmanifest
           test -f sw.js
+          test -f cliente/index.html
+          test -f cliente/styles.css
+          test -f cliente/app.js
+          test -f cliente/manifest.webmanifest
+          test -f cliente/sw.js
