@@ -46,3 +46,8 @@ input:focus,select:focus,textarea:focus{border-color:rgba(244,122,31,.75);box-sh
 .logoPreview{max-width:180px;max-height:110px;object-fit:contain;display:block;margin:0 auto 10px}
 .logoPlaceholder{width:82px;height:82px;border-radius:22px;margin:0 auto 10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--brand2),var(--brand));color:#111;font:800 28px Manrope,Inter,sans-serif;box-shadow:0 12px 30px rgba(244,122,31,.2)}
 .settings .btn:disabled{opacity:.6;cursor:wait;transform:none}
+
+.avatar{border-radius:50%;object-fit:cover;border:2px solid rgba(244,122,31,.38);background:#12151a;box-shadow:0 8px 24px rgba(0,0,0,.28)}
+.avatar.sm{width:44px;height:44px}.avatar.md{width:58px;height:58px}.avatar.lg{width:92px;height:92px}
+.avatar.fallback{display:grid;place-items:center;background:linear-gradient(135deg,var(--brand2),var(--brand));color:#111;font-weight:800;font-family:Manrope,Inter,sans-serif}
+.employeeIdentity,.profileHero{display:flex;gap:12px;align-items:center}.profileHero h2{margin:0 0 4px}
