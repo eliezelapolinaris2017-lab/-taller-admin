@@ -55,3 +55,9 @@ input:focus,select:focus,textarea:focus{border-color:rgba(244,122,31,.75);box-sh
 .editLine{display:grid;grid-template-columns:minmax(0,2fr) minmax(100px,.7fr) minmax(120px,.8fr) auto;gap:10px;align-items:center;margin-bottom:10px}
 .editLine input{margin:0}
 @media(max-width:700px){.editLine{grid-template-columns:1fr}.editLine .btn{width:100%}}
+
+.clientSummary{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;padding:2px 0 8px}
+.clientInfo{min-width:0;flex:1}
+.clientInfo b{display:block;font-size:1.08rem;margin-bottom:3px}
+.clientAddress{margin-top:7px;color:var(--text);font-size:.96rem;line-height:1.35}
+@media(max-width:560px){.clientSummary{align-items:center}.clientSummary .btn{flex:0 0 auto}}
